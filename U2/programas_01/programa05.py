@@ -1,3 +1,8 @@
+"""
+Escribe un programa que pida dos números y que indique cuál es el menor, cuál el mayor
+o que indique que son iguales.
+"""
+
 num1=int(input("Introduce el primer valor"))
 num2=int(input("Introduce el segundo valor"))
 

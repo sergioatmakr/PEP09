@@ -1,3 +1,9 @@
+"""
+Escribe un programa que pida números hasta que se introduzca un cero. Debe imprimir la
+suma y la media de todos los números introducidos. Realiza dos versiones: una que utiliza
+la instrucción break y otra no.
+"""
+
 #Versión break
 total=0
 media=0
