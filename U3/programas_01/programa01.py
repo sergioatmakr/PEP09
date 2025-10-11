@@ -7,3 +7,11 @@ primer apellido, segundo apellido
 • Funcionalidad: Imprime por pantalla un mensaje saludando a la persona en función
 de los parámetros de entrada.
 """
+def saludar(nombre,apellido1,apellido2):
+    print(f"¡Hola {nombre} {apellido1} {apellido2} bienvenido a 2ºDAW !")
+
+nombre=str(input("Introduce tu nombre"))
+apellido1=str(input("Introduce tu primer apellido"))
+apellido2=str(input("Introduce tu segundo apellido"))
+
+saludar(nombre,apellido1,apellido2)
