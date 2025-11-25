@@ -1,3 +1,7 @@
+# ===============================================
+# Funciones para calcular diferentes areas
+# ===============================================
+
 def calcular_area_circulo(radio):
     area= 3,14*radio**2
     return print(f"El area del circulo es 3,14*{radio}^2 = {area}")
