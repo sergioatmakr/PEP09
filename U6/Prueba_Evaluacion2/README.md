@@ -1,4 +1,4 @@
-readme_content = """# 🍳 GourmetWeb - Plataforma de Gestión de Recetas
+# 🍳 GourmetWeb - Plataforma de Gestión de Recetas
 
 GourmetWeb es una aplicación web desarrollada en **Python 3** utilizando el framework **Django**. Este proyecto ha sido diseñado siguiendo rigurosamente el patrón arquitectónico **MTV (Modelo - Template - Vista)** y cumple al 100% con los requisitos técnicos exigidos en la rúbrica de la **Prueba de Evaluación 2 (Parte 2)** de la asignatura *Programación en Python* (2º DAW).
 
