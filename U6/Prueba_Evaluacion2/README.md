@@ -79,9 +79,9 @@ python manage.py loaddata recetas_iniciales
 ### 7. Ejecutar el servidor de desarrollo
 
 ```bash
-python manage.py runserver 8020
+python manage.py runserver
 ```
 
-Abre **http://127.0.0.1:8020** en tu navegador.
+Abre **http://127.0.0.1:8000** en tu navegador.
 
 ---
