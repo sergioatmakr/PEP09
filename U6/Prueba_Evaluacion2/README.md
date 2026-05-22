@@ -1,7 +1,3 @@
-# Vamos a generar un archivo README.md profesional e impecable adaptado a la práctica de Sergio
-# El archivo debe estructurarse siguiendo los estándares de calidad de la rúbrica de Don Álvaro, detallando el patrón MTV,
-# la instalación, los comandos git empleados y las dos funcionalidades adicionales (Búsqueda Q y Bootstrap).
-
 readme_content = """# 🍳 GourmetWeb - Plataforma de Gestión de Recetas
 
 GourmetWeb es una aplicación web desarrollada en **Python 3** utilizando el framework **Django**. Este proyecto ha sido diseñado siguiendo rigurosamente el patrón arquitectónico **MTV (Modelo - Template - Vista)** y cumple al 100% con los requisitos técnicos exigidos en la rúbrica de la **Prueba de Evaluación 2 (Parte 2)** de la asignatura *Programación en Python* (2º DAW).
