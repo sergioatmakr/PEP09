@@ -1,6 +1,6 @@
 # 🍳 GourmetWeb - Plataforma de Gestión de Recetas
 
-GourmetWeb es una aplicación web desarrollada en **Python 3** utilizando el framework **Django**. Este proyecto ha sido diseñado siguiendo rigurosamente el patrón arquitectónico **MTV (Modelo - Template - Vista)** y cumple al 100% con los requisitos técnicos exigidos en la rúbrica de la **Prueba de Evaluación 2 (Parte 2)** de la asignatura *Programación en Python* (2º DAW).
+GourmetWeb es una aplicación web desarrollada en **Python 3** utilizando el framework **Django**. Este proyecto ha sido diseñado siguiendo rigurosamente el patrón arquitectónico **MTV (Modelo - Template - Vista)** 
 
 ---
 
@@ -29,4 +29,59 @@ Para alcanzar la máxima calificación en los apartados de desarrollo avanzado e
 
 Siga estos pasos en orden cronológico en su terminal para levantar el proyecto en su entorno local:
 
+---
+
+## Instalación Local
 ### 1. Clonar el repositorio y acceder a la raíz
+
+```bash
+git clone <url-del-repositorio>
+cd recetario_cocina
+```
+
+### 2. Crear y activar el entorno virtual
+
+```bash
+# Crear entorno virtual
+python -m venv venv
+
+# Activar (Linux/macOS)
+source venv/bin/activate
+
+# Activar (Windows)
+venv\Scripts\activate
+```
+
+### 3. Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Aplicar migraciones
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+### 5. Crear superusuario (administrador)
+
+```bash
+python manage.py createsuperuser
+```
+
+### 6 Cargar los datos iniciales
+```bash
+python manage.py loaddata recetas_iniciales
+```
+
+### 7. Ejecutar el servidor de desarrollo
+
+```bash
+python manage.py runserver 8020
+```
+
+Abre **http://127.0.0.1:8020** en tu navegador.
+
+---
