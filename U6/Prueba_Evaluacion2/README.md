@@ -36,7 +36,6 @@ Siga estos pasos en orden cronológico en su terminal para levantar el proyecto 
 
 ```bash
 git clone <url-del-repositorio>
-cd recetario_cocina
 ```
 
 ### 2. Crear y activar el entorno virtual
